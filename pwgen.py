@@ -3,7 +3,7 @@ import random
 import string
 import pyperclip
 
-sg.theme('DarkBlue2')
+sg.theme('Topanga')
 
 layout = [
     [sg.Text('Password Length: '), sg.Spin(values=[i for i in range(4, 101)], initial_value=16, size=(5, 1))],
